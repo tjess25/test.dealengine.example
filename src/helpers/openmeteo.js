@@ -8,8 +8,8 @@ async function getWeatherByCity(lat, long) {
             latitude: [lat],
             longitude: [long],
             hourly: ["temperature_2m", "precipitation_probability"],
-            start_date: "2024-09-2",
-            end_date: "2024-09-2"
+            start_date: "2024-09-02",
+            end_date: "2024-09-02"
         };
 
         const url = 'https://api.open-meteo.com/v1/forecast';
